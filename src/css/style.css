@@ -450,6 +450,22 @@ a {
   .l-hero__content h1 {
     letter-spacing: 10px; }
 
+.l-products {
+  height: 75em;
+  margin-top: 5%; }
+
+.l-products__title {
+  text-align: center; }
+  .l-products__title h3 {
+    margin: 0; }
+
+.l-products__content {
+  margin-top: 5%;
+  text-align: center; }
+
+.products__img {
+  margin: 1%; }
+
 .wrap {
   width: 100%; }
 
