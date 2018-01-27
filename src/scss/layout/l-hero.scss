@@ -1,0 +1,23 @@
+@import "_variables";
+
+.l-hero {
+  background-color: $primary-bg-colour;
+  height: 60em;
+}
+
+.l-hero__figure {
+  margin: 0;
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.l-hero__content {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-top: 7%;
+
+  h1 {
+    letter-spacing: 10px;
+  }
+}
