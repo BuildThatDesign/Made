@@ -1,0 +1,61 @@
+@import "_variables";
+
+.l-unique {
+  height: 60em;
+  background-color: $fourth-bg-colour;
+}
+
+.l-unique__title {
+  padding-top: 5%;
+
+  h3 {
+    text-align: center;
+  }
+
+}
+
+// .l-unique__img {
+//   margin: 0;
+//   display: inline-block;
+// }
+//
+// .l-uniques__content {
+//   display: inline-block;
+// }
+
+// .l-uniques__content  {
+//     display: inline-block;
+//     float: left;
+//     margin-right: 6%;
+//     padding-left: 4%;
+// }
+//
+// .l-unique__img{
+//     display: inline-block;
+//     margin: 0;
+//     width: 50%;
+//     margin-top: 5%;
+//
+//     img {
+//       width: 80%;
+//     }
+// }
+
+
+.l-unique__img {
+    margin: 0;
+    display: inline-block;
+    margin-top: 5%;
+    width: 53%;
+    img {
+        width: 103%;
+    }
+}
+
+.l-uniques__content {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-top: 7%;
+
+}

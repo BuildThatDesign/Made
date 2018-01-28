@@ -393,12 +393,14 @@ h1 {
   font-size: 5em;
   font-family: "Ubuntu", sans-serif;
   color: white;
-  margin: 0; }
+  margin: 0;
+  letter-spacing: 10px; }
 
 h2 {
-  font-size: 60px;
+  font-size: 5em;
   color: black;
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 10px; }
 
 h3 {
   font-size: 1.5em;
@@ -422,10 +424,20 @@ p {
   font-size: 20px;
   line-height: 1.7;
   font-family: "Ubuntu", sans-serif;
-  color: #e7e3e1; }
+  color: #d0ccc4; }
 
 a {
   text-decoration: none; }
+
+hr {
+  /* box-sizing: content-box; */
+  /* height: 0px; */
+  overflow: visible;
+  width: 5%;
+  border: none;
+  height: 3px;
+  /* color: #333; */
+  background-color: #333; }
 
 .l-header {
   background-color: #95dbd2; }
@@ -447,8 +459,6 @@ a {
   float: right;
   width: 40%;
   margin-top: 7%; }
-  .l-hero__content h1 {
-    letter-spacing: 10px; }
 
 .l-products {
   height: 75em;
@@ -456,8 +466,6 @@ a {
 
 .l-products__title {
   text-align: center; }
-  .l-products__title h3 {
-    margin: 0; }
 
 .l-products__content {
   margin-top: 5%;
@@ -465,6 +473,56 @@ a {
 
 .products__img {
   margin: 1%; }
+
+.l-favorites {
+  height: 60em;
+  background-color: #fff8eb; }
+
+.l-favorites__title {
+  text-align: center;
+  padding-top: 5%; }
+
+.l-favorites__title--main {
+  display: inline-block;
+  text-align: right; }
+
+.l-favorites__content {
+  display: inline-block;
+  text-align: right;
+  float: left;
+  margin-right: 6%;
+  padding-left: 4%; }
+
+.l-favorites__img {
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+  margin-top: 5%; }
+  .l-favorites__img img {
+    width: 80%; }
+
+.l-unique {
+  height: 60em;
+  background-color: #f4efed; }
+
+.l-unique__title {
+  padding-top: 5%; }
+  .l-unique__title h3 {
+    text-align: center; }
+
+.l-unique__img {
+  margin: 0;
+  display: inline-block;
+  margin-top: 5%;
+  width: 53%; }
+  .l-unique__img img {
+    width: 103%; }
+
+.l-uniques__content {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-top: 7%; }
 
 .wrap {
   width: 100%; }

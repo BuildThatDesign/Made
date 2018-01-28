@@ -8,13 +8,14 @@ h1 {
   font-family: $font-family;
   color: $third-font-colour;
   margin: 0;
-
+  letter-spacing: 10px;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 5em;
   color: $secondry-font-colour;
   font-family: $font-family;
+  letter-spacing: 10px;
   // font-weight: 700;
 }
 
@@ -43,10 +44,22 @@ p {
   font-size: 20px;
   line-height: 1.7;
   font-family: $font-family;
-  color: $primary-font-colour;
-
+  // color: $primary-font-colour;
+  // color: #898989;
+  color: #d0ccc4;
 }
 
 a {
   text-decoration: none;
+}
+
+hr {
+    /* box-sizing: content-box; */
+    /* height: 0px; */
+    overflow: visible;
+    width: 5%;
+    border: none;
+    height: 3px;
+    /* color: #333; */
+    background-color: #333;
 }

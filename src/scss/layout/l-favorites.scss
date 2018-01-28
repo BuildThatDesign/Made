@@ -1,0 +1,39 @@
+@import "_variables";
+
+
+.l-favorites {
+  height: 60em;
+  background-color: $third-bg-colour;
+}
+
+.l-favorites__title {
+  text-align: center;
+  padding-top: 5%;
+  h3 {
+    // margin: 0;
+  }
+}
+
+.l-favorites__title--main {
+  display: inline-block;
+  text-align: right;
+}
+
+.l-favorites__content {
+    display: inline-block;
+    text-align: right;
+    float: left;
+    margin-right: 6%;
+    padding-left: 4%;
+}
+
+.l-favorites__img {
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    margin-top: 5%;
+
+    img {
+      width: 80%;
+    }
+}
