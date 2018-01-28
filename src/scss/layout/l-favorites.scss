@@ -37,3 +37,25 @@
       width: 80%;
     }
 }
+
+
+// FOR MOBILE
+
+.l-favorites__img--mb{
+  text-align: center;
+  margin: 0;
+  margin-top: 13%;
+  padding-right: 7%;
+
+  display: none
+}
+
+.l-favorites__content--mb {
+  text-align: center;
+
+  h2 {
+    font-size: 3em;
+  }
+
+  display: none
+}
